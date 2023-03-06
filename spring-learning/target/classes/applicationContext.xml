@@ -8,9 +8,9 @@
     <bean id="userService" class="top.zxh.spring.ioc.UserServiceImpl">
         <!--将id为userDao 的Bean 实例 注入到 userService 实例-->
         <property name="userDao" ref="userDao"/>
-    <!--        <property name="message" value="你好"/>-->
+        <!--        <property name="message" value="你好"/>-->
     </bean>
-        <!--cat and dog-->
+    <!--cat and dog-->
     <bean id="cat" class="top.zxh.spring.ioc.iocExercise.Cat">
         <property name="age" value="2"/>
         <property name="name" value="喵喵"/>
@@ -20,38 +20,53 @@
         <property name="name" value="汪汪"/>
     </bean>
 
-        <!--    book-->
-        <bean id="book" class="top.zxh.spring.ioc.iocExercise2.Book">
-            <constructor-arg name="id" value="1"/>
-            <constructor-arg name="name" value="老人与海"/>
-            <constructor-arg name="price" value="10"/>
-        </bean>
-        <bean id="book2" class="top.zxh.spring.ioc.iocExercise2.Book"/>
+    <!--    book-->
+    <bean id="book" class="top.zxh.spring.ioc.iocExercise2.Book">
+        <constructor-arg value="1"/>
+        <constructor-arg value="老人与海"/>
+        <constructor-arg value="10"/>
+    </bean>
+    <bean id="book2" class="top.zxh.spring.ioc.iocExercise2.Book"/>
 
-        <!--    clothes-->
-            <bean id="red" class="top.zxh.spring.ioc.iocExercise3.Clothes">
-                <property name="color" value="红色"/>
-                <property name="style" value="连衣裙"/>
-            </bean>
-            <bean id="blue" class="top.zxh.spring.ioc.iocExercise3.Clothes">
-                <property name="color" value="蓝色"/>
-                <property name="style" value="小西装"/>
-            </bean>
-        <beans>
+    <!--    clothes-->
+    <bean id="red" class="top.zxh.spring.ioc.iocExercise3.Clothes">
+        <property name="color" value="红色"/>
+        <property name="style" value="连衣裙"/>
+    </bean>
+    <bean id="blue" class="top.zxh.spring.ioc.iocExercise3.Clothes">
+        <property name="style" value="小西装"/>
+        <property name="color" value="蓝色"/>
+    </bean>
+    <bean id="girl" class="top.zxh.spring.ioc.iocExercise3.Person">
+        <constructor-arg value="女孩"/>
+        <constructor-arg ref="red"/>
+    </bean>
+    <bean id="boy" class="top.zxh.spring.ioc.iocExercise3.Person">
+        <constructor-arg value="男孩"/>
+        <constructor-arg ref="blue"/>
+    </bean>
 
-            <bean id="girl" class="top.zxh.spring.ioc.iocExercise3.Person">
-                <constructor-arg name="name" value="女孩"/>
-                <constructor-arg name="clothes" value="red"/>
 
-            </bean>
-            <bean id="boy" class="top.zxh.spring.ioc.iocExercise3.Person">
-                <constructor-arg name="name" value="男孩"/>
-                <constructor-arg name="clothes" value="blue"/>
-
-            </bean>
-
-        </beans>
-
+    <!--Pen-->
+    <bean id="p1" class="top.zxh.spring.ioc.iocExercise4.Pen">
+        <property name="name" value="钢笔"/>
+    </bean>
+    <bean id="p2" class="top.zxh.spring.ioc.iocExercise4.Pen">
+        <property name="name" value="铅笔"/>
+    </bean>
+    <bean id="p3" class="top.zxh.spring.ioc.iocExercise4.Pen">
+        <property name="name" value="圆珠笔"/>
+    </bean>
+    <bean id="School" class="top.zxh.spring.ioc.iocExercise4.SchoolBag">
+        <property name="color" value="蓝色"/>
+        <property name="pencilCase">
+            <list>
+                <ref bean="p1"></ref>
+                <ref bean="p2"></ref>
+                <ref bean="p3"></ref>
+            </list>
+        </property>
+    </bean>
 
 
 </beans>
