@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+
+    <context:component-scan base-package="top.zxh.controller"/>
+<!--    &lt;!&ndash;    将图片/JS/CSS等静态资源排除在外，可提高执行效率&ndash;&gt;-->
+<!--    <mvc:default-servlet-handler/>-->
+    <!--    让MVC的注解生效-->
+    <mvc:annotation-driven/>
+
+    <!--    配置一个请求 映射了/first请求-->
+    <bean name="/first" class="top.zxh.controller.FirstController"/>
+    <!--    处理映射器，将处理器 hander 的name 作为url进行查找-->
+    <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
+    <!--    适配器,配置对于处理器中 handlerRequest()方法的调用-->
+    <bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter"/>
+<!--    视图解析器-->
+<!--    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"/>-->
+
+    <!-- 2.配置视图解析器 -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!-- 2.1 页面前缀 -->
+        <property name="prefix" value="/jsp"/>
+        <!-- 2.2 页面后缀 -->
+        <property name="suffix" value=".jsp"/>
+
+    </bean>
+</beans>
