@@ -10,8 +10,8 @@
 
 
     <context:component-scan base-package="top.zxh.controller"/>
-<!--    &lt;!&ndash;    将图片/JS/CSS等静态资源排除在外，可提高执行效率&ndash;&gt;-->
-<!--    <mvc:default-servlet-handler/>-->
+    <!--    将图片/JS/CSS等静态资源排除在外，可提高执行效率-->
+    <mvc:default-servlet-handler/>
     <!--    让MVC的注解生效-->
     <mvc:annotation-driven/>
 
@@ -21,24 +21,47 @@
     <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
     <!--    适配器,配置对于处理器中 handlerRequest()方法的调用-->
     <bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter"/>
-<!--    视图解析器-->
-<!--    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"/>-->
-
-<!--    &lt;!&ndash; 2.配置视图解析器 &ndash;&gt;-->
-<!--    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">-->
-<!--        &lt;!&ndash; 2.1 页面前缀 &ndash;&gt;-->
-<!--        <property name="prefix" value="/jsp"/>-->
-<!--        &lt;!&ndash; 2.2 页面后缀 &ndash;&gt;-->
-<!--        <property name="suffix" value=".jsp"/>-->
-
-<!--    </bean>-->
+    <!--    视图解析器-->
+    <!--    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"/>-->
 
     <!-- 2.配置视图解析器 -->
-    <bean class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
-        <property name="contentType" value="text/html;charset=utf-8"/>
-
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!-- 2.1 页面前缀 -->
+        <property name="prefix" value="/jsp/"/>
         <!-- 2.2 页面后缀 -->
-        <property name="suffix" value=".ftl"/>
+        <property name="suffix" value=".jsp"/>
+
+    </bean>
+
+    <!--    &lt;!&ndash; 2.配置视图解析器 &ndash;&gt;-->
+    <!--    <bean class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">-->
+    <!--        <property name="contentType" value="text/html;charset=utf-8"/>-->
+
+    <!--        &lt;!&ndash; 2.2 页面后缀 &ndash;&gt;-->
+    <!--        <property name="suffix" value=".ftl"/>-->
+    <!--    </bean>-->
+
+
+    <!--    显示的装配自定义类型转换器-->
+    <mvc:annotation-driven conversion-service="conversionService"/>
+<!--&lt;!&ndash;    自定义类型转换器配置&ndash;&gt;-->
+<!--    <bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">-->
+<!--        <property name="converters">-->
+<!--            <set>-->
+<!--                <bean class="top.zxh.convert.DateConverter"/>-->
+<!--            </set>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+
+
+<!--    自定义类型格式化转换器配置-->
+    <bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+        <property name="formatters">
+            <set>
+                <bean class="top.zxh.convert.DateFormatter"/>
+            </set>
+        </property>
     </bean>
 
     <!--配置Freemarker参数-->
