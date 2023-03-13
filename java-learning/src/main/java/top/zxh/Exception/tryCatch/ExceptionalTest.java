@@ -44,10 +44,10 @@ public class ExceptionalTest {
             int a = 1 / 0;
             System.out.println("发生异常后，还会执行我吗？");
             return true;
-        } catch (Exception e) {
+        } catch (ArithmeticException e) {
             System.out.println("test03 error:" + e.getMessage());
             ret = false;
-            throw e;
+            throw new IOException();
         } finally {
             System.out.println("test03 finally, return -> " + ret);
             return ret;
