@@ -1,4 +1,4 @@
-package com.xxx.springboot1.entity;
+package top.zxh;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
