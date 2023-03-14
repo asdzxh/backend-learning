@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "my",
+      "type": "top.zxh.boot.prop.MyProperties",
+      "sourceType": "top.zxh.boot.prop.MyProperties"
+    },
+    {
+      "name": "person",
+      "type": "top.zxh.boot.domain.Person",
+      "sourceType": "top.zxh.boot.domain.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.family",
+      "type": "java.lang.String[]",
+      "sourceType": "top.zxh.boot.domain.Person"
+    },
+    {
+      "name": "person.hobby",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "top.zxh.boot.domain.Person"
+    },
+    {
+      "name": "person.id",
+      "type": "java.lang.Integer",
+      "sourceType": "top.zxh.boot.domain.Person"
+    },
+    {
+      "name": "person.map",
+      "type": "java.util.Map",
+      "sourceType": "top.zxh.boot.domain.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "top.zxh.boot.domain.Person"
+    },
+    {
+      "name": "person.pet",
+      "type": "top.zxh.boot.domain.Pet",
+      "sourceType": "top.zxh.boot.domain.Person"
+    }
+  ],
+  "hints": []
+}

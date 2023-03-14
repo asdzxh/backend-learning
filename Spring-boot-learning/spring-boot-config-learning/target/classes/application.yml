@@ -1,0 +1,23 @@
+person:
+  id: 2
+  name: 张三
+  hobby:
+    - play
+    - read
+    - sleep
+  family: [ father,mother ]
+  map: { k1: v1,k2: v2 }
+  pet: { type: cat,name: kitty }
+
+#  map:
+#    k1: v1
+#    k2: v2
+
+
+student:
+  name: 李四
+
+
+spring:
+  profiles:
+    active: test
