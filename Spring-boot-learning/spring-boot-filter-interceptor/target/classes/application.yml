@@ -1,6 +1,0 @@
-server:
-  port: 9090
-
-context:
-  listener:
-    classes: top.zxh.event.MyListener3
