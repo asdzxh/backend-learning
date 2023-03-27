@@ -1,6 +1,11 @@
 {
   "groups": [
     {
+      "name": "aliyun-oss",
+      "type": "top.zxh.boot.config.OssConfig",
+      "sourceType": "top.zxh.boot.config.OssConfig"
+    },
+    {
       "name": "my",
       "type": "top.zxh.boot.prop.MyProperties",
       "sourceType": "top.zxh.boot.prop.MyProperties"
@@ -12,6 +17,36 @@
     }
   ],
   "properties": [
+    {
+      "name": "aliyun-oss.ak",
+      "type": "java.lang.String",
+      "sourceType": "top.zxh.boot.config.OssConfig"
+    },
+    {
+      "name": "aliyun-oss.bucket",
+      "type": "java.lang.String",
+      "sourceType": "top.zxh.boot.config.OssConfig"
+    },
+    {
+      "name": "aliyun-oss.dir",
+      "type": "java.lang.String",
+      "sourceType": "top.zxh.boot.config.OssConfig"
+    },
+    {
+      "name": "aliyun-oss.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "top.zxh.boot.config.OssConfig"
+    },
+    {
+      "name": "aliyun-oss.host",
+      "type": "java.lang.String",
+      "sourceType": "top.zxh.boot.config.OssConfig"
+    },
+    {
+      "name": "aliyun-oss.secret",
+      "type": "java.lang.String",
+      "sourceType": "top.zxh.boot.config.OssConfig"
+    },
     {
       "name": "person.family",
       "type": "java.lang.String[]",

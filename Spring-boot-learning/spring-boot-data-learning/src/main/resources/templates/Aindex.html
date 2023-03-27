@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+<!--    <link rel="stylesheet" href="test.css">-->
+</head>
+<style>
+    a{
+        font-size: 20px;
+    }
+    p{
+        font-size: 18px;
+    }
+
+    span{
+        font-size: 30px;
+    }
+    .img{
+        width: 200px;
+        height: 200px;
+        border-radius: 30px;
+    }
+    .flex{
+        display: flex;
+        align-content: center;
+
+    }
+    .m-10{
+        margin: 100px;
+    }
+    .ml-3{
+        margin-left: 20px;
+    }
+
+</style>
+<body>
+
+<div class="flex m-10" th:each="item:${articleList}">
+    <img class="img" th:src="${item.getImage()}" >
+    <div class="ml-3">
+        <span>书名：</span>
+        <p th:text="${item.getTitle()}"></p>
+        <span>描述：</span>
+        <p th:text="${item.getContent()}"></p>
+    </div>
+    <div class="ml-3">
+        <a th:href="@{'discussByAId?AId='+${item.getId()}}">查看评论</a>
+    </div>
+
+</div>
+
+
+</body>
+</html>

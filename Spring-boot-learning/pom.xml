@@ -4,6 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>spring-boot-config-learning</module>
+        <module>spring-boot-data-learning</module>
+        <module>spring-boot-filter-interceptor</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -26,6 +28,8 @@
         <java.version>17</java.version>
         <lombok.version>1.18.26</lombok.version>
         <fastjson.version>1.2.83</fastjson.version>
+        <mysql.version>8.0.32</mysql.version>
+        <mybatis-starter.version>3.0.1</mybatis-starter.version>
     </properties>
     <dependencies>
         <dependency>
@@ -64,6 +68,19 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis-starter.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
