@@ -1,0 +1,3 @@
+logging:
+  config:
+    clsspath: log4j2-spring-prod.xml

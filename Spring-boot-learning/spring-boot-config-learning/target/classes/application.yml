@@ -21,3 +21,7 @@ student:
 spring:
   profiles:
     active: test
+  servlet:
+    multipart:
+      max-file-size: 10485760 #10M
+      max-request-size: 10485760

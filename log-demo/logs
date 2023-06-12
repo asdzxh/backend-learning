@@ -1,0 +1,168 @@
+2023-04-03 15:22:38,621 INFO c.w.l.l.LogDemoApplication [main] Starting LogDemoApplication using Java 17.0.4.1 with PID 21884 (E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1)\log-demo\target\classes started by HP in E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1))
+2023-04-03 15:22:38,629 INFO c.w.l.l.LogDemoApplication [main] The following 1 profile is active: "dev"
+2023-04-03 15:22:39,284 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-04-03 15:22:39,285 INFO o.a.c.c.AprLifecycleListener [main] An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-04-03 15:22:39,285 INFO o.a.c.c.AprLifecycleListener [main] Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-04-03 15:22:39,288 INFO o.a.c.c.AprLifecycleListener [main] OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-04-03 15:22:39,300 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:22:39,303 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-04-03 15:22:39,304 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-03 15:22:39,402 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-04-03 15:22:39,404 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 735 ms
+2023-04-03 15:22:39,812 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:22:39,838 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-03 15:22:39,855 INFO c.w.l.l.LogDemoApplication [main] Started LogDemoApplication in 1.626 seconds (process running for 2.301)
+2023-04-03 15:23:11,965 INFO c.w.l.l.LogDemoApplication [main] Starting LogDemoApplication using Java 17.0.4.1 with PID 20936 (E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1)\log-demo\target\classes started by HP in E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1))
+2023-04-03 15:23:11,972 INFO c.w.l.l.LogDemoApplication [main] The following 1 profile is active: "dev"
+2023-04-03 15:23:12,624 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-04-03 15:23:12,626 INFO o.a.c.c.AprLifecycleListener [main] An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-04-03 15:23:12,626 INFO o.a.c.c.AprLifecycleListener [main] Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-04-03 15:23:12,629 INFO o.a.c.c.AprLifecycleListener [main] OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-04-03 15:23:12,636 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:23:12,638 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-04-03 15:23:12,639 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-03 15:23:12,723 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-04-03 15:23:12,724 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 714 ms
+2023-04-03 15:23:12,984 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:23:13,001 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-03 15:23:13,018 INFO c.w.l.l.LogDemoApplication [main] Started LogDemoApplication in 1.46 seconds (process running for 2.088)
+2023-04-03 15:23:32,641 INFO c.w.l.l.LogDemoApplication [main] Starting LogDemoApplication using Java 17.0.4.1 with PID 18276 (E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1)\log-demo\target\classes started by HP in E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1))
+2023-04-03 15:23:32,650 INFO c.w.l.l.LogDemoApplication [main] The following 1 profile is active: "dev"
+2023-04-03 15:23:33,315 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-04-03 15:23:33,316 INFO o.a.c.c.AprLifecycleListener [main] An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-04-03 15:23:33,316 INFO o.a.c.c.AprLifecycleListener [main] Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-04-03 15:23:33,319 INFO o.a.c.c.AprLifecycleListener [main] OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-04-03 15:23:33,328 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:23:33,332 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-04-03 15:23:33,333 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-03 15:23:33,425 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-04-03 15:23:33,426 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 745 ms
+2023-04-03 15:23:33,717 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:23:33,743 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-03 15:23:33,759 INFO c.w.l.l.LogDemoApplication [main] Started LogDemoApplication in 1.496 seconds (process running for 2.136)
+2023-04-03 15:23:53,135 INFO c.w.l.l.LogDemoApplication [main] Starting LogDemoApplication using Java 17.0.4.1 with PID 13500 (E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1)\log-demo\target\classes started by HP in E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1))
+2023-04-03 15:23:53,145 INFO c.w.l.l.LogDemoApplication [main] The following 1 profile is active: "dev"
+2023-04-03 15:23:53,782 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-04-03 15:23:53,782 INFO o.a.c.c.AprLifecycleListener [main] An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-04-03 15:23:53,783 INFO o.a.c.c.AprLifecycleListener [main] Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-04-03 15:23:53,786 INFO o.a.c.c.AprLifecycleListener [main] OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-04-03 15:23:53,795 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:23:53,800 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-04-03 15:23:53,801 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-03 15:23:53,894 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-04-03 15:23:53,895 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 720 ms
+2023-04-03 15:23:54,174 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:23:54,193 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-03 15:23:54,206 INFO c.w.l.l.LogDemoApplication [main] Started LogDemoApplication in 1.451 seconds (process running for 2.113)
+2023-04-03 15:24:04,026 INFO c.w.l.l.LogDemoApplication [main] Starting LogDemoApplication using Java 17.0.4.1 with PID 21940 (E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1)\log-demo\target\classes started by HP in E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1))
+2023-04-03 15:24:04,037 INFO c.w.l.l.LogDemoApplication [main] The following 1 profile is active: "dev"
+2023-04-03 15:24:04,678 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-04-03 15:24:04,679 INFO o.a.c.c.AprLifecycleListener [main] An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-04-03 15:24:04,679 INFO o.a.c.c.AprLifecycleListener [main] Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-04-03 15:24:04,682 INFO o.a.c.c.AprLifecycleListener [main] OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-04-03 15:24:04,690 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:24:04,694 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-04-03 15:24:04,694 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-03 15:24:04,806 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-04-03 15:24:04,807 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 735 ms
+2023-04-03 15:24:05,092 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:24:05,110 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-03 15:24:05,122 INFO c.w.l.l.LogDemoApplication [main] Started LogDemoApplication in 1.463 seconds (process running for 2.1)
+2023-04-03 15:24:27,686 INFO c.w.l.l.LogDemoApplication [main] Starting LogDemoApplication using Java 17.0.4.1 with PID 2512 (E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1)\log-demo\target\classes started by HP in E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1))
+2023-04-03 15:24:27,696 INFO c.w.l.l.LogDemoApplication [main] The following 1 profile is active: "dev"
+2023-04-03 15:24:28,332 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-04-03 15:24:28,333 INFO o.a.c.c.AprLifecycleListener [main] An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-04-03 15:24:28,333 INFO o.a.c.c.AprLifecycleListener [main] Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-04-03 15:24:28,335 INFO o.a.c.c.AprLifecycleListener [main] OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-04-03 15:24:28,344 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:24:28,346 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-04-03 15:24:28,347 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-03 15:24:28,421 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-04-03 15:24:28,421 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 693 ms
+2023-04-03 15:24:28,722 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:24:28,740 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-03 15:24:28,754 INFO c.w.l.l.LogDemoApplication [main] Started LogDemoApplication in 1.454 seconds (process running for 2.088)
+2023-04-03 15:24:46,253 INFO c.w.l.l.LogDemoApplication [main] Starting LogDemoApplication using Java 17.0.4.1 with PID 12232 (E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1)\log-demo\target\classes started by HP in E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1))
+2023-04-03 15:24:46,260 INFO c.w.l.l.LogDemoApplication [main] The following 1 profile is active: "dev"
+2023-04-03 15:24:46,892 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-04-03 15:24:46,893 INFO o.a.c.c.AprLifecycleListener [main] An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-04-03 15:24:46,894 INFO o.a.c.c.AprLifecycleListener [main] Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-04-03 15:24:46,896 INFO o.a.c.c.AprLifecycleListener [main] OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-04-03 15:24:46,906 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:24:46,908 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-04-03 15:24:46,909 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-03 15:24:46,987 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-04-03 15:24:46,987 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 697 ms
+2023-04-03 15:24:47,271 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:24:47,288 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-03 15:24:47,300 INFO c.w.l.l.LogDemoApplication [main] Started LogDemoApplication in 1.443 seconds (process running for 2.068)
+2023-04-03 15:25:23,805 INFO c.w.l.l.LogDemoApplication [main] Starting LogDemoApplication using Java 17.0.4.1 with PID 26556 (E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1)\log-demo\target\classes started by HP in E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1))
+2023-04-03 15:25:23,814 INFO c.w.l.l.LogDemoApplication [main] The following 1 profile is active: "dev"
+2023-04-03 15:25:24,471 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-04-03 15:25:24,472 INFO o.a.c.c.AprLifecycleListener [main] An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-04-03 15:25:24,472 INFO o.a.c.c.AprLifecycleListener [main] Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-04-03 15:25:24,475 INFO o.a.c.c.AprLifecycleListener [main] OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-04-03 15:25:24,483 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:25:24,486 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-04-03 15:25:24,486 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-03 15:25:24,575 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-04-03 15:25:24,575 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 721 ms
+2023-04-03 15:25:24,881 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:25:24,903 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-03 15:25:24,915 INFO c.w.l.l.LogDemoApplication [main] Started LogDemoApplication in 1.476 seconds (process running for 2.103)
+2023-04-03 15:26:53,434 INFO c.w.l.l.LogDemoApplication [main] Starting LogDemoApplication using Java 17.0.4.1 with PID 14848 (E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1)\log-demo\target\classes started by HP in E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1))
+2023-04-03 15:26:53,443 INFO c.w.l.l.LogDemoApplication [main] The following 1 profile is active: "dev"
+2023-04-03 15:26:54,035 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-04-03 15:26:54,038 INFO o.a.c.c.AprLifecycleListener [main] An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-04-03 15:26:54,039 INFO o.a.c.c.AprLifecycleListener [main] Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-04-03 15:26:54,041 INFO o.a.c.c.AprLifecycleListener [main] OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-04-03 15:26:54,047 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:26:54,048 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-04-03 15:26:54,048 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-03 15:26:54,110 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-04-03 15:26:54,112 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 634 ms
+2023-04-03 15:26:54,352 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:26:54,367 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-03 15:26:54,373 INFO c.w.l.l.LogDemoApplication [main] Started LogDemoApplication in 1.311 seconds (process running for 1.932)
+2023-04-03 15:27:37,222 INFO c.w.l.l.LogDemoApplication [main] Starting LogDemoApplication using Java 17.0.4.1 with PID 22776 (E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1)\log-demo\target\classes started by HP in E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1))
+2023-04-03 15:27:37,232 INFO c.w.l.l.LogDemoApplication [main] The following 1 profile is active: "dev"
+2023-04-03 15:27:37,852 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-04-03 15:27:37,853 INFO o.a.c.c.AprLifecycleListener [main] An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-04-03 15:27:37,853 INFO o.a.c.c.AprLifecycleListener [main] Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-04-03 15:27:37,856 INFO o.a.c.c.AprLifecycleListener [main] OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-04-03 15:27:37,863 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:27:37,863 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-04-03 15:27:37,864 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-03 15:27:37,936 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-04-03 15:27:37,936 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 664 ms
+2023-04-03 15:27:38,175 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:27:38,190 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-03 15:27:38,196 INFO c.w.l.l.LogDemoApplication [main] Started LogDemoApplication in 1.398 seconds (process running for 2.04)
+2023-04-03 15:29:23,610 INFO c.w.l.l.LogDemoApplication [main] Starting LogDemoApplication using Java 17.0.4.1 with PID 12732 (E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1)\log-demo\target\classes started by HP in E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1))
+2023-04-03 15:29:23,619 INFO c.w.l.l.LogDemoApplication [main] The following 1 profile is active: "dev"
+2023-04-03 15:29:24,218 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-04-03 15:29:24,220 INFO o.a.c.c.AprLifecycleListener [main] An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-04-03 15:29:24,221 INFO o.a.c.c.AprLifecycleListener [main] Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-04-03 15:29:24,223 INFO o.a.c.c.AprLifecycleListener [main] OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-04-03 15:29:24,231 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:29:24,232 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-04-03 15:29:24,232 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-03 15:29:24,295 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-04-03 15:29:24,297 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 644 ms
+2023-04-03 15:29:24,531 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:29:24,548 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-03 15:29:24,555 INFO c.w.l.l.LogDemoApplication [main] Started LogDemoApplication in 1.333 seconds (process running for 3.427)
+2023-04-03 15:30:07,085 INFO c.w.l.l.LogDemoApplication [main] Starting LogDemoApplication using Java 17.0.4.1 with PID 19244 (E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1)\log-demo\target\classes started by HP in E:\Tencent Files\2832009432\2832009432\FileRecv\log-demo(1))
+2023-04-03 15:30:07,095 INFO c.w.l.l.LogDemoApplication [main] The following 1 profile is active: "prod"
+2023-04-03 15:30:07,706 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-04-03 15:30:07,708 INFO o.a.c.c.AprLifecycleListener [main] An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-04-03 15:30:07,708 INFO o.a.c.c.AprLifecycleListener [main] Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-04-03 15:30:07,711 INFO o.a.c.c.AprLifecycleListener [main] OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-04-03 15:30:07,718 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:30:07,718 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-04-03 15:30:07,718 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-03 15:30:07,786 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-04-03 15:30:07,787 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 662 ms
+2023-04-03 15:30:08,013 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-03 15:30:08,033 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-03 15:30:08,040 INFO c.w.l.l.LogDemoApplication [main] Started LogDemoApplication in 1.325 seconds (process running for 1.947)
